@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta name="keywords" content="HTML, CSS">
+    <meta name="author" content="HJY">
+    <title>포트폴리오</title>
+    <script src="https://kit.fontawesome.com/d726fe48fc.js" crossorigin="anonymous"></script>
+    <script src="js/common.js"></script>
+    <link rel="stylesheet" href="css/style.css">
+
+</head>
+<body>
+    <header class="header">
+
+        <nav class="nav_menu">
+
+            <div class="menu">
+                <div class="menu_wrap" onclick="menu_scroll('header')">MAIN</div>
+                <div class="menu_wrap" onclick="menu_scroll('section_about')">ABOUT</div>
+                <div class="menu_wrap" onclick="menu_scroll('section_project')">PROJECT</div>
+                <div class="menu_wrap" onclick="menu_scroll('section_contact')">CONTACT</div>
+            </div>
+
+            <div class="menu2">
+                <div class="menu_wrap2" onclick="menu_scroll('header')"><i class="fa-solid fa-house fa-xl"></i></div>
+                <div class="menu_wrap2" onclick="menu_scroll('section_about')"><i class="fa-solid fa-user fa-xl"></i></div>
+                <div class="menu_wrap2" onclick="menu_scroll('section_project')"><i class="fa-solid fa-book fa-xl"></i></div>
+                <div class="menu_wrap2" onclick="menu_scroll('section_contact')"><i class="fa-solid fa-comment fa-xl"></i></div>
+            </div>
+        </nav>
+
+        <div class="main_logo_wrap">
+            <img class="main_logo" src="image/main.png" alt="메인 로고">
+        </div>
+
+    </header>
+
+    <section>
+
+        <div class="section_about">
+            <img class="about_image" src="image/about.png">
+
+
+            <p class="about_information">안녕하세요.<br><span>신입 개발자</span> <span style="color:#5CD1E5">하주영</span>입니다.
+            <br><br>본격적으로 개발 공부를 하게 된 것은 <span>22년 9월 국비지원 학원이었습니다.</span>
+            <br>그러나 국비지원으로 공부하기 전에 개발이라는 분야가 나와 맞나 궁금하여
+            <br><span>'정보처리기사'</span>라는 자격증을 공부하였습니다.
+            <br>22.05 / 22.07 정보처리기사 필기, 실기에 각각 응시를 하게 되었고,
+            <br><span>22.09 정보처리기사 합격</span>을 하였습니다.
+            <br><br>학원에서 개발 공부는 시작하였지만<br>5-6개월이라는 시간은 짧았으며<br>
+            그 사이에 학원에서 공부하는 것만이 아닌<br><span>혼자서 공부를 틈틈히 하며 자기 개발을 해왔습니다.</span>
+            <br><br>비전공자이다보니 부족한 점도 너무 많았고,<br>개발이라는 분야는 늘 끊임없이 공부를 해야하는 분야라는걸 알았습니다.<br>
+            지금까지 해왔던 것처럼 꾸준히 <span>계속해서 공부하며 나아가는 개발자</span>가 되겠습니다.</p>
+        </div>
+
+
+        <div class="section_project">
+            <div class="project_wrap1">
+                <img src="image/kidsgao.png" alt="키즈가오 홈페이지">
+                <p><span style="color: red">01</span><span> KidsGao</span><br><br><br>
+                html과 css를 활용하여<br>
+                만든 KidsGao 홈페이지입니다.</p>
+            </div>
+        </div>
+
+        <div class="section_contact">
+            <p>이름 : 하주영<br>연락처 : 010-1234-1234<br>이메일 : abcdfg@naver.com</p>
+            <div class="link_wrap">
+                <div class="github_link">
+                    <a href="https://github.com/duing2"
+                    target="_blank" style="text-decoration: none;">
+                        <img src="image/github_icon.png" width=100px height=100px alt="깃허브 아이콘">
+                    </a>
+                    <- 클릭!
+                </div>
+
+                <div class="blog_link">
+                    <a href="https://blog.naver.com/wndud2070"
+                    target="_blank" style="text-decoration: none;">
+                        <img src="image/blog_icon.png" width=100px height=100px alt="블로그 아이콘">
+                    </a>
+                    <- 클릭!
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <p class="copyright"><br><span style="font-size: 15px;">이 사이트는 포트폴리오용으로 제작 되었습니다.</span><br><br>
+        @github_icon<br><a class="github_copyright" href="https://www.flaticon.com/kr/free-icons/github"
+        title="github 아이콘" target="_blank">Github 아이콘  제작자: Pixel perfect - Flaticon</a><br><br>
+        @blog_icon<br><a class="blog_copyright" href="https://www.flaticon.com/free-icons/blog"
+        title="blog icons">Blog icons created by Freepik - Flaticon</a></p>
+    </footer>
+</body>
+</html>
